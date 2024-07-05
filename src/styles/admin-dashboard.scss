@@ -1,0 +1,78 @@
+.subadmin-table {
+  padding: 0px;
+  margin-top: 20px;
+  h2 {
+    padding-bottom: 30px;
+  }
+  Table {
+    border: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+  }
+}
+.users-table {
+  margin-top: 30px;
+  Table {
+    border: 1px solid #dcdcdc;
+  }
+  h2 {
+    padding-bottom: 30px;
+  }
+}
+.team-add-btn {
+  button {
+    margin-right: 5px;
+  }
+}
+.teams-table {
+  margin: 100px 0px 0px 0px;
+  .ant-table-wrapper {
+    .ant-pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.manage-teams {
+  input {
+    width: 400px;
+    padding: 11px !important;
+  }
+  .user-shift-card {
+    margin-top: 40px;
+  }
+  padding: 14px 32px;
+  h2 {
+    margin-top: 20px;
+  }
+  .team-table {
+    margin-top: 40px;
+    .table-row-hover:hover {
+      cursor: pointer;
+    }
+  }
+  .table-with-heading {
+    margin-top: 40px;
+  }
+  .user-shift-card {
+    .ant-card {
+      .ant-card-body {
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100% !important;
+      }
+      .ant-card-head {
+        padding: 0px !important;
+        .title-wrapper {
+          display: flex;
+          gap: 15px;
+          margin-left: 28px;
+          width: 80%;
+        }
+      }
+    }
+  }
+}

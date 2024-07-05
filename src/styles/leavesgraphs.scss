@@ -1,0 +1,67 @@
+.graphic-content-container {
+  height: 420px;
+  .graphic-content {
+    height: 350px;
+  }
+
+  .ant-row {
+    display: flex;
+    height: 100%;
+    .ant-col {
+      width: 100%;
+    }
+
+    .comp-offs-data {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border: 1px solid #dee2e6;
+      .comp-graph {
+        position: relative;
+        height: 65%;
+        border-bottom: 1px solid #dee2e6;
+        padding: 20px;
+        text-align: center;
+      }
+      h3 {
+        font: size 14px !important;
+        font-weight: 400 !important;
+      }
+      .graph {
+        overflow: hidden;
+        svg {
+          width: 170px;
+        }
+      }
+      .numerical-data {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .annual-data {
+        flex: 1;
+        padding: 10px 0px 0px 10px;
+      }
+    }
+    .present-status {
+      flex: 1;
+      display: flex;
+      .available-days {
+        font-weight: 400 !important;
+      }
+      .consumed-days {
+        font-weight: 400 !important;
+      }
+      border-bottom: 1px solid #dee2e6;
+      div {
+        flex: 1;
+        border-right: 1px solid #dee2e6;
+      }
+      .status {
+        padding: 10px 0px 0px 10px;
+      }
+    }
+  }
+}

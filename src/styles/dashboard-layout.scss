@@ -1,0 +1,120 @@
+.layout-container {
+  min-height: 100vh;
+}
+.medulla-layout {
+  min-height: 100vh;
+  .ant-layout-sider-dark {
+    .ant-menu-submenu {
+      .ant-badge-count-sm {
+        line-height: normal !important;
+      }
+      .ant-scroll-number-only-unit {
+        font-weight: bold !important;
+      }
+    }
+    .ant-layout-sider-children {
+      ul {
+        .ant-menu-item-selected {
+          background-color: #2c86ce !important;
+        }
+      }
+    }
+  }
+}
+
+.medulla-header {
+  background: #2c86ce;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-bar {
+  width: 400px;
+  background: white;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  .search-icon {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      width: 20px;
+    }
+  }
+
+  .search {
+    height: 100%;
+    width: 78%;
+    border: none;
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+}
+.medulla-search {
+  width: 420px;
+  .ant-input-wrapper {
+    .ant-input-group-wrapper {
+      position: relative;
+    }
+
+    .ant-input-group-addon {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      height: 100%;
+      right: 25px;
+      left: auto;
+      top: 0;
+      padding: 10px;
+      border-radius: 30px;
+    }
+    .ant-input-group-addon button {
+      border: none;
+    }
+    .ant-input {
+      padding: 10px;
+      border-radius: 30px;
+    }
+  }
+}
+
+.medulla-logo {
+  margin-left: 16px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.dashboard-logo {
+  width: 90px;
+  margin-left: 10px;
+}
+
+.profile-dropdown {
+  margin-right: 15px;
+}
+
+.profile-text {
+  margin-left: 16px;
+  color: #fff;
+  font-size: 15px;
+}
+.ant-layout-sider-children {
+  .ul {
+    background-color: #fff;
+  }
+}
+
+.sidebar-container {
+  .ant-menu-item-selected {
+    background-color: $primary-color;
+  }
+}
